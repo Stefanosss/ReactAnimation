@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.bag {
+  width: 80rem;
+  height: 80rem;
+  cursor: pointer;
+}
+
+.badge {
+  border-radius: 5px;
+  border: 3px dashed white;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 13%;
+  left: 32.5%;
+  padding: 1rem 0;
+}
+
+.picture {
+  width: 10rem;
+  height: 10rem;
+  border: 3px dashed white;
+}
+
+.name {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}

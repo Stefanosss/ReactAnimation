@@ -1,0 +1,17 @@
+.badminton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  margin-top: 10rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.shuttle {
+  position: absolute;
+  top: 5rem;
+  right: 18rem;
+  z-index: 100;
+}
